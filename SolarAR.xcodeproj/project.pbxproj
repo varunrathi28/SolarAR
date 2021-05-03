@@ -13,6 +13,14 @@
 		37FC9AB826406A5D004AAF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9AB626406A5D004AAF95 /* Main.storyboard */; };
 		37FC9ABA26406A5D004AAF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9AB926406A5D004AAF95 /* Assets.xcassets */; };
 		37FC9ABD26406A5D004AAF95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9ABB26406A5D004AAF95 /* LaunchScreen.storyboard */; };
+		37FC9ACE264072C7004AAF95 /* sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9AC6264072C6004AAF95 /* sun.usdz */; };
+		37FC9ACF264072C7004AAF95 /* mercury.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9AC7264072C6004AAF95 /* mercury.usdz */; };
+		37FC9AD0264072C7004AAF95 /* mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9AC8264072C6004AAF95 /* mars.usdz */; };
+		37FC9AD1264072C7004AAF95 /* venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9AC9264072C6004AAF95 /* venus.usdz */; };
+		37FC9AD2264072C7004AAF95 /* uranus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9ACA264072C6004AAF95 /* uranus.usdz */; };
+		37FC9AD3264072C7004AAF95 /* earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9ACB264072C6004AAF95 /* earth.usdz */; };
+		37FC9AD4264072C7004AAF95 /* neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9ACC264072C7004AAF95 /* neptune.usdz */; };
+		37FC9AD5264072C7004AAF95 /* saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 37FC9ACD264072C7004AAF95 /* saturn.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		37FC9AB926406A5D004AAF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37FC9ABC26406A5D004AAF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37FC9ABE26406A5D004AAF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FC9AC6264072C6004AAF95 /* sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sun.usdz; sourceTree = "<group>"; };
+		37FC9AC7264072C6004AAF95 /* mercury.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = mercury.usdz; sourceTree = "<group>"; };
+		37FC9AC8264072C6004AAF95 /* mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = mars.usdz; sourceTree = "<group>"; };
+		37FC9AC9264072C6004AAF95 /* venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = venus.usdz; sourceTree = "<group>"; };
+		37FC9ACA264072C6004AAF95 /* uranus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = uranus.usdz; sourceTree = "<group>"; };
+		37FC9ACB264072C6004AAF95 /* earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = earth.usdz; sourceTree = "<group>"; };
+		37FC9ACC264072C7004AAF95 /* neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = neptune.usdz; sourceTree = "<group>"; };
+		37FC9ACD264072C7004AAF95 /* saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = saturn.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		37FC9AAF26406A5D004AAF95 /* SolarAR */ = {
 			isa = PBXGroup;
 			children = (
+				37FC9AC5264072A6004AAF95 /* usdz */,
 				37FC9AB026406A5D004AAF95 /* AppDelegate.swift */,
 				37FC9AB226406A5D004AAF95 /* ViewController.swift */,
 				37FC9AB426406A5D004AAF95 /* Experience.rcproject */,
@@ -65,6 +82,21 @@
 				37FC9ABE26406A5D004AAF95 /* Info.plist */,
 			);
 			path = SolarAR;
+			sourceTree = "<group>";
+		};
+		37FC9AC5264072A6004AAF95 /* usdz */ = {
+			isa = PBXGroup;
+			children = (
+				37FC9ACB264072C6004AAF95 /* earth.usdz */,
+				37FC9AC8264072C6004AAF95 /* mars.usdz */,
+				37FC9AC7264072C6004AAF95 /* mercury.usdz */,
+				37FC9ACC264072C7004AAF95 /* neptune.usdz */,
+				37FC9ACD264072C7004AAF95 /* saturn.usdz */,
+				37FC9AC6264072C6004AAF95 /* sun.usdz */,
+				37FC9ACA264072C6004AAF95 /* uranus.usdz */,
+				37FC9AC9264072C6004AAF95 /* venus.usdz */,
+			);
+			path = usdz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +156,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37FC9AD5264072C7004AAF95 /* saturn.usdz in Resources */,
+				37FC9AD1264072C7004AAF95 /* venus.usdz in Resources */,
+				37FC9AD0264072C7004AAF95 /* mars.usdz in Resources */,
 				37FC9ABD26406A5D004AAF95 /* LaunchScreen.storyboard in Resources */,
+				37FC9AD4264072C7004AAF95 /* neptune.usdz in Resources */,
 				37FC9ABA26406A5D004AAF95 /* Assets.xcassets in Resources */,
+				37FC9AD3264072C7004AAF95 /* earth.usdz in Resources */,
+				37FC9ACF264072C7004AAF95 /* mercury.usdz in Resources */,
+				37FC9AD2264072C7004AAF95 /* uranus.usdz in Resources */,
+				37FC9ACE264072C7004AAF95 /* sun.usdz in Resources */,
 				37FC9AB826406A5D004AAF95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
